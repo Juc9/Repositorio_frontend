@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="nombre">Nombre</label><!-- Se pone el for ya que si se da clic te envia a su input correspondiente -->
+        <input type="text" name="" id="nombre" size="6" maxlength="5"><br><br> <!-- Maxlength es para restrigir el numero de caracteres que se pueden poner -->      
+
+        <label for="pass">Contraseña</label>
+        <input type="password" name="" id="pass" autofocus><br><br><!-- El autofocus es para enfocar un elemento cada que se carga la pagina -->
+
+        <label for="correo">Correo</label>
+        <input type="email" name="" id="correo" placeholder="ejemplo@email.com"><br><br>
+
+        <label for="url">Domino</label>
+        <input type="url" name="" id="url" value="Perro"><br><br>
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="" id="telefono" readonly><br><br>
+
+        <label for="num">Numero</label>
+        <input type="number" name="" id="num" min="0" max="10" disabled><br><br><!-- Disabled es una atributo que desabilida el input -->
+ 
+        <input type="color" name="" id=""><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
+        <br><br>
+
+        <a href="https://www.w3schools.com/html/html_form_input_types.asp">Lista de los input que existen</a>
+
+    </form>
+
+</body>
+</html>
