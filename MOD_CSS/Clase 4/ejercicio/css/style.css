@@ -16,12 +16,14 @@ ul{
     text-align: right;
     margin-right: 10%;
 }
+a{
+    text-decoration: none;
+}
 li{  
     font-size: 1.5vw;
     list-style-type: none;
     display: inline-block;
     padding: 4px 0px;
-    /* padding-bottom: 4px; */
     margin-right:25px;
 }
 #Landing{
@@ -55,12 +57,11 @@ h1{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-a{
+#see{
     font-size:1vw;
     font-weight: lighter;
     background-color: rgb(94, 175, 107);
     border-radius: 20px;
-    text-decoration: none;
     padding: 10px 30px 10px 30px;
 }
 #sign{ 
